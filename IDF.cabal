@@ -1,0 +1,17 @@
+name:                IDF
+version:             0.1
+synopsis:            Compute the inverse document frequency of a given corpus
+-- description:         
+license:             GPL-2
+license-file:        LICENSE
+author:              Rémi Berson
+maintainer:          remi.berson@gmail.com
+-- copyright:           
+category:            Math
+build-type:          Simple
+cabal-version:       >=1.8
+
+library
+  exposed-modules:  Math.IDF
+  build-depends:    base, containers, hmatrix
+  ghc-options:      -Wall -O2
