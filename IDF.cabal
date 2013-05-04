@@ -1,4 +1,4 @@
-name:                IDF
+name:                idf
 version:             0.1
 synopsis:            Compute the inverse document frequency of a given corpus
 -- description:         
